@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 1cm;
+}
+
+
+body{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.box{
+    background-color: aliceblue;
+    padding: 1.5cm;
+}
+#btn{
+    
+    background-color: red;
+    border: none;
+    color: aliceblue;
+    border-radius: 10%;
+    padding: 2%;
+    align-items: center;
+    margin-top: .5cm;
+}
+
+.error{
+    color: red;
+    font-size: small;
+    text-align: right;
+    margin: .25cm;
+}
+
+.in{
+    height: 1cm;
+    width: auto;
+}
